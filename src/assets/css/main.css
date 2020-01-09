@@ -9,6 +9,7 @@
  * before the Tailwind utilities, so that the utilities could still
  * override them.
 */
+@import "/src/assets/css/dark-mode.css";
 
 /* Tailwind utility classes */
 @import "tailwindcss/utilities";
