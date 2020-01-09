@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     screens: {
       all: { raw: "screen" },
-      sm: { max: "600px" }
+      sm: { max: "700px" },
+      "dark-mode": { raw: "(prefers-color-scheme: dark)" }
     },
     colors: {
       transparent: "transparent",
@@ -23,7 +24,10 @@ module.exports = {
         600: "#718096",
         700: "#4a5568",
         800: "#2d3748",
-        900: "#1a202c"
+        900: "#1a202c",
+        979: "#A9A9A9",
+        989: "#2D2D2D",
+        999: "#1B1C1E"
       },
       red: {
         100: "#fff5f5",

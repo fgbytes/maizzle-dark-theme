@@ -28,6 +28,10 @@
   <![endif]-->
     {% if css %}
       <style>
+        :root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+        }
         {{css}}
       </style>
     {% endif %}
