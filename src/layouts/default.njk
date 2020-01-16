@@ -5,6 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
     {% if page.title %}
       <title>{{ page.title }}</title>
     {% endif %}
@@ -27,12 +29,6 @@
   </style>
   <![endif]-->
     {% if css %}
-      <style data-embed>
-        :root {
-          color-scheme: light dark;
-          supported-color-schemes: light dark;
-        }
-      </style>
       <style>
         {{css}}
       </style>

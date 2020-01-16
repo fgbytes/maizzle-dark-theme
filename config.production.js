@@ -1,23 +1,23 @@
 module.exports = {
   build: {
     destination: {
-      path: 'build_production',
-    },
+      path: "build_production"
+    }
   },
 
   inlineCSS: {
-    enabled: true,
+    enabled: true
   },
 
   cleanup: {
     removeUnusedCSS: {
       enabled: true,
-      uglify: true,
+      uglify: false
     },
     replaceStrings: {
-      '\\s(style|class)(=""|(?=>)|(?=\\s))+': '',
+      '\\s(style|class)(=""|(?=>)|(?=\\s))+': ""
     },
-    preferBgColorAttribute: true,
+    preferBgColorAttribute: true
   },
 
   minify: {
@@ -25,6 +25,6 @@ module.exports = {
     minifyCSS: true,
     maxLineLength: 500,
     collapseWhitespace: true,
-    processConditionalComments: true,
-  },
-}
+    processConditionalComments: true
+  }
+};

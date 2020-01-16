@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     screens: {
       all: { raw: "screen" },
+
       sm: { max: "700px" },
+      xs: { max: "400px" },
       "dark-mode": { raw: "(prefers-color-scheme: dark)" }
     },
     colors: {

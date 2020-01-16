@@ -1,0 +1,49 @@
+@media screen and (max-width: 700px) {
+  .darkcontainer,
+  .darkcontent {
+    @apply bg-white !important;
+    /* background-color: #ffffff !important; */
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body,
+  html {
+    @apply bg-gray-999 !important;
+    /* background-color: #1b1c1e !important; */
+  }
+  p {
+    @apply text-gray-979 !important;
+    /* color: #a9a9a9 !important; */
+  }
+  .darkcontainer {
+    @apply bg-gray-999 !important;
+    /* background-color: #1b1c1e !important; */
+  }
+  .darkcontent {
+    @apply bg-gray-989 !important;
+    /* background-color: #2d2d2d; */
+  }
+
+  .dark-hidden {
+    display: none;
+  }
+  a {
+    @apply text-blue-400;
+  }
+  .text-black {
+    color: #ffffff !important;
+  }
+}
+
+@media screen and (max-width: 700px) and (prefers-color-scheme: dark) {
+  .darkcontainer,
+  .darkcontent {
+    @apply bg-gray-999 !important;
+    /* background-color: #1b1c1e !important; */
+  }
+  body,
+  html {
+    @apply bg-gray-999 !important;
+    /* background-color: #1b1c1e !important; */
+  }
+}
